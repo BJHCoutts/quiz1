@@ -1,0 +1,36 @@
+{
+  "name": "quiz1_cluckr",
+  "version": "1.0.0",
+  "description": "quiz1 cluckr",
+  "main": "app.js",
+  "scripts": {
+    "start": "nodemon app.js",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "db:create": "createdb --echo cluckr_dev",
+    "db:drop": "dropdb --echo cluckr_dev"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/BJHCoutts/quiz1.git"
+  },
+  "author": "Brian Coutts",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/BJHCoutts/quiz1/issues"
+  },
+  "homepage": "https://github.com/BJHCoutts/quiz1#readme",
+  "dependencies": {
+    "body-parser": "^1.18.2",
+    "bootstrap": "^4.1.1",
+    "cookie-parser": "^1.4.3",
+    "ejs": "^2.6.1",
+    "express": "^4.16.3",
+    "knex": "^0.14.6",
+    "morgan": "^1.9.0",
+    "pg": "^7.4.3",
+    "sqlite3": "^4.0.0"
+  },
+  "devDependencies": {
+    "nodemon": "^1.17.4"
+  }
+}
